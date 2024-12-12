@@ -11,7 +11,7 @@ public class RunProgram {
         
         do{
             System.out.println("\nWhat would you like to do?(Choose a number): ");
-            System.out.println("1: Add A Student    2: Remove A Student     3: Find Student     4: Exit");
+            System.out.println("1: Add A Student \n2: Remove A Student \n3: Find Student \n4: Exit");
             int choice = userInput.nextInt();
             userInput.nextLine();
             
