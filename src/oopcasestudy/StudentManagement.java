@@ -17,7 +17,6 @@ public class StudentManagement implements ManagementFunctions{
         else{
             students[numOfStudents] = student;
             numOfStudents++;
-            
         }        
     }
     
@@ -36,7 +35,7 @@ public class StudentManagement implements ManagementFunctions{
         }
     }
     
-    // Method to search for students by ID
+    // Method to search for students by name
     public void findStudent(String studentName){
         for(int i=0;i<numOfStudents;i++){
             if(studentName.equalsIgnoreCase(students[i].getName())){
@@ -44,9 +43,10 @@ public class StudentManagement implements ManagementFunctions{
                 return; 
             }
         }
+        System.out.println("Student cannot be found");
     }
     
-    // Method to search for students by name
+    // Method to search for students by ID
     public void findStudent(int studentId){
         for(int i =0;i<numOfStudents;i++){
             if(students[i].getId()==studentId){
