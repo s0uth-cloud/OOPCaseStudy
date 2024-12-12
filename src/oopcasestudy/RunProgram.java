@@ -78,7 +78,7 @@ public class RunProgram {
                     break;
                     
                 case 3:
-                    System.out.println("\nHow would you like to find the student:\n1: By ID Number    2: By Student Name");
+                    System.out.println("\nHow would you like to find the student:\n1: By ID Number \n2: By Student Name");
                     int findBy = userInput.nextInt();
                     userInput.nextLine();
                     
